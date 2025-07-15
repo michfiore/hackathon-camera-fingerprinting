@@ -1,7 +1,16 @@
 [project]
-name = "hackathon-camera-fingerprinting"
+name = "camera-fingerprint"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
-dependencies = []
+requires-python = ">=3.11"
+dependencies = [
+    "datasets>=4.0.0",
+    "ipykernel>=6.29.5",
+    "ipython>=9.4.0",
+    "ipywidgets>=8.1.7",
+    "matplotlib>=3.10.3",
+    "mtcnn>=1.0.0",
+    "pandas>=2.3.1",
+    "s3fs>=2025.3.0",
+]
